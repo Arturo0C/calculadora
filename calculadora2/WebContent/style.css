@@ -1,0 +1,51 @@
+img {
+    position: relative;
+    top: 20%;
+    left: 33%;
+    width: 700px;
+    height: 300px;
+    z-index: 0;
+    
+}
+
+body {
+    background-image: url(https://images4.alphacoders.com/633/633192.jpg);
+}
+
+form {
+  position: relative;
+  top: 0px;
+  width: 400px;
+  text-align: center;
+  border: none;
+  padding-bottom: 10px;
+  margin: auto;
+  background: #fcc96a;
+  box-shadow: 0px 0px 84px 23px rgba(255, 255, 255, 0.911);
+}
+input[type=textfield] {
+    width: 75%;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 8px 0;
+    border: 1px solid silver;
+    border-radius: 1px;
+    text-align: left;
+    color: rgb(10, 49, 221);
+    background: #ccc;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    font-size: 16px;
+    min-width: 21%;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+  background-color: rgb(221, 201, 135);
+}
+
